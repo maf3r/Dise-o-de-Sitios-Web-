@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+<meta charset="utf-8" />
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.accordion.custom.min.js" type="text/javascript"></script> 
+    <title>Estructura basica de una pagina web en HTML5</title> 
+
+</head> 
+<body> 
+        <header> 
+           
+<table width="100%" border="1" cellspacing="2">
+  <tr>
+    <th width="22%" height="47" bgcolor="#000000" scope="row">&nbsp;</th>
+    <td width="14%" bgcolor="#000000"><div align="center"><strong><font color="#cccccc">  Inicio</font></strong></div></td> 
+    <td width="13%" bgcolor="#000000"><div align="center"><strong><font color="#cccccc">Nosotros</font></strong></div></td>
+    <td width="17%" bgcolor="#000000"><div align="center"><strong><font color="#cccccc">Contactenos</font></strong></div></td>
+    <td width="17%" bgcolor="#000000"><div align="center"><strong><font color="#cccccc">Libreria</font></strong></div></td>
+    <td width="17%" bgcolor="#000000"><label for="fileField">File
+      <input type="search" name="search" id="search">
+      :</label>
+    <label for="search">Search:</label></td>
+  </tr>
+  
+</table>
+<table width="100%" border="1" cellspacing="2">
+  <tr>
+    <th width="58%" scope="row"><p>&nbsp;</p>
+      <div id="Accordion1">
+        <h3>
+          <script type="text/javascript" src="../../Public/Music/Sample Music/Kalimba.mp3"></script>
+        1.gdufhgkldfjg</h3>
+        <div>
+          <p>Contenido 1</p>
+        </div>
+        <h3><a href="#">Sección 2</a></h3>
+        <div>
+          <p>Contenido 2</p>
+        </div>
+        <h3><a href="#">Sección 3</a></h3>
+        <div>
+          <p>Contenido 3</p>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></th>
+    <td width="42%">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
